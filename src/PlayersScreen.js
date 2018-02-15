@@ -4,7 +4,7 @@ import {Container, Header, Content, Body, Title} from 'native-base';
 import PlayersListThumbnail from './PlayersListThumbnail';
 
 import firebase from 'firebase';
-import firebaseConfig from './firebase-config';
+import firebaseConfig from '../config/firebase-config';
 
 export default class PlayerScreen extends React.Component {
     constructor(props) {
