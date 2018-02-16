@@ -19,7 +19,13 @@
       "bundleIdentifier": "com.taikifnit.fnitmcsassistant"
     },
     "android": {
-      "package": "com.taikifnit.fnitmcsassistant"
+      "package": "com.taikifnit.fnitmcsassistant",
+      "permissions": ["INTERNET"]
+    },
+    "primaryColor": "#6fc022",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#6fc022"
     }
   }
 }
