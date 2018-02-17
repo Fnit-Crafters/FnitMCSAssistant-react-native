@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "891337599222",
+    "firebase_url": "https://fnitmcsassistant.firebaseio.com",
+    "project_id": "fnitmcsassistant",
+    "storage_bucket": "fnitmcsassistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891337599222:android:c6504a40a7b29475",
+        "android_client_info": {
+          "package_name": "crafters.fnit.fnitmcsassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891337599222-v9t9kna9shvhhvv0b4lofucnga1ha5cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTPjCLHwo8EvT2r_uYN2vP7wnH5Np8T8s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891337599222:android:7e2558155da0f423",
+        "android_client_info": {
+          "package_name": "com.fnitmcsassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891337599222-v9t9kna9shvhhvv0b4lofucnga1ha5cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTPjCLHwo8EvT2r_uYN2vP7wnH5Np8T8s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
