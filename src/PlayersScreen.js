@@ -19,7 +19,12 @@ export default class PlayerScreen extends React.Component {
 
         this.userRef = firebase.database().ref('users');
         this.userRef.on('value', (snapshot) => {
-            this.setState({players: snapshot.val()})
+            let players = Object.values(snapshot.val())
+            console.log(players)
+            players.sort((a, b) => {
+                return a.lastLogin < b.lastLogin;
+              });
+            this.setState({ players });
         });
     }
 
