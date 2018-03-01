@@ -6,7 +6,7 @@ import PlayersListThumbnail from './PlayersListThumbnail';
 
 import firebase from 'firebase';
 import firebaseConfig from '../config/firebase-config';
-require("firebase/firestore");
+import { primaryColor, primaryAccentColor } from '../config/colors.js';
 
 export default class PlayerScreen extends React.Component {
     constructor(props) {
@@ -17,25 +17,16 @@ export default class PlayerScreen extends React.Component {
     componentDidMount() {
         firebase.initializeApp(firebaseConfig);
 
-        this.userCollection = firebase.firestore().collection('users');
-        this.userCollection.orderBy("lastLogin").onSnapshot(collectionSnapshot => {
-            let players = []
-
-            collectionSnapshot.forEach((user) => {
-                players.push(user.data())
-            })
-
-            this.setState({ players })
-        }, err => {
-            console.log('Data Fetch Error. Check your network.');
-            console.log(err)
-        })
+        this.userRef = firebase.database().ref('users');
+        this.userRef.on('value', (snapshot) => {
+            this.setState({players: snapshot.val()})
+        });
     }
 
     render() {
         return (
             <Container>
-                <Header>
+                <Header backgroundColor={primaryColor} androidStatusBarColor={primaryAccentColor}>
                     <Body>
                         <Title>Players</Title>
                     </Body>
