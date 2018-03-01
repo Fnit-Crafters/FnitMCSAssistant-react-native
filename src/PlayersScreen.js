@@ -6,7 +6,7 @@ import PlayersListThumbnail from './PlayersListThumbnail';
 
 import firebase from 'firebase';
 import firebaseConfig from '../config/firebase-config';
-import { primaryColor, primaryAccentColor } from '../config/colors.js';
+import { primaryColor, primaryDarkColor } from '../config/colors.js';
 
 export default class PlayerScreen extends React.Component {
     constructor(props) {
@@ -26,7 +26,7 @@ export default class PlayerScreen extends React.Component {
     render() {
         return (
             <Container>
-                <Header backgroundColor={primaryColor} androidStatusBarColor={primaryAccentColor}>
+                <Header toolbarTextColor="#ffffff" backgroundColor={primaryColor} androidStatusBarColor={primaryDarkColor}>
                     <Body>
                         <Title>Players</Title>
                     </Body>
