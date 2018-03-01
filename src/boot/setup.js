@@ -2,6 +2,11 @@ import * as Expo from "expo";
 import React, { Component } from "react";
 import { StyleProvider } from "native-base";
 
+// REF: http://docs.nativebase.io/Customize.html#Customize
+import getTheme from '../theme/components';
+import material from '../theme/variables/material';
+import commonColor from '../theme/variables/commonColor';
+
 import App from "../App";
 
 export default class Setup extends Component {
@@ -31,7 +36,9 @@ export default class Setup extends Component {
       }
 
       return (
+      <StyleProvider style={getTheme(commonColor)}>
           <App />
+       </StyleProvider>
       );
     }
   }

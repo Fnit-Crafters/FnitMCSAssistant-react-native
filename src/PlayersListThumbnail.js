@@ -37,11 +37,13 @@ export default class PlayersListThumbnail extends React.Component {
                   ? "Online"
                   : "Last Login: " + unixTime2ymd(player.lastLogin)}</Text>
               </Body>
-              <Right>
-                <Button transparent info>
-                  <Icon name="ios-arrow-forward-outline" />
-                </Button>
-              </Right>
+              {/*
+                <Right>
+                  <Button transparent info>
+                    <Icon name="ios-arrow-forward-outline" />
+                  </Button>
+                </Right>
+              */}
             </ListItem>
           );
         }}></List>
