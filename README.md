@@ -3,6 +3,7 @@
 
 ## Get App!
 in https://expo.io/builds/2c36da7e-0931-4e7b-ba2a-d76e50c736f9
+android: https://github.com/Fnit-Crafters/FnitMCSAssistant-react-native/raw/master/apks/fnitmcsassistant-react-native.apk
 
 ## 機能
 * 登録されているMinecraft Serverに参加したことがあるPlayer一覧の表示
