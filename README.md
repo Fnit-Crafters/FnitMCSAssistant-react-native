@@ -1,6 +1,9 @@
 # FnitMCSAssistant ReactNative
 このアプリは, [FnitMCSAssistant-android](https://github.com/Fnit-Crafters/FnitMCSAssistant-android)をReact Nativeで作り直したものです. 
 
+## Get App!
+in https://expo.io/builds/2c36da7e-0931-4e7b-ba2a-d76e50c736f9
+
 ## 機能
 * 登録されているMinecraft Serverに参加したことがあるPlayer一覧の表示
 
