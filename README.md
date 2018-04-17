@@ -1,7 +1,7 @@
 # FnitMCSAssistant ReactNative
 このアプリは, [FnitMCSAssistant-android](https://github.com/Fnit-Crafters/FnitMCSAssistant-android)をReact Nativeで作り直したものです. 
 
-![screenshot](https://raw.githubusercontent.com/Fnit-Crafters/FnitMCSAssistant-react-native/master/Screen%20Shot%202018-04-17%20at%203.52.00%20PM.png)
+<img src="https://raw.githubusercontent.com/Fnit-Crafters/FnitMCSAssistant-react-native/master/Screen%20Shot%202018-04-17%20at%203.52.00%20PM.png" width="280px">
 
 ## Get App!
 android: https://github.com/Fnit-Crafters/FnitMCSAssistant-react-native/raw/master/apks/fnitmcsassistant-react-native.apk
